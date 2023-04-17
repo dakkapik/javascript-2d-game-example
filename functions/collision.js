@@ -30,13 +30,11 @@ function cwp (entitieIndex) {
 
   switch(obj.constructor.name){
     case "Block":  
-        if(this.xVelocity > 0){
+        if(Math.abs(this.xVelocity) > this.runSpeed/2){
           if (obj.getWest() > this.x){
             this.xVelocity = Math.abs(this.xVelocity) * restitution;
             this.x = this.x - obj.middle.w;
-          }
-        } else {
-          if (obj.getEast() < this.x){
+          } else if(obj.getEast() < this.x) {
             this.xVelocity = -Math.abs(this.xVelocity) * restitution;
             this.x = this.x + obj.middle.w;
           }

@@ -6,7 +6,7 @@ const terrainScript = () => {
     // game.addBlock(50, 300, 200,30, "ground-industrial")
     
 
-    // game.addBlock(150, 150, 30,30, "ground-industrial")
-    // game.addBlock(200, 250, 30,30, "ground-industrial")
-    // game.addBlock(200, 210, 30,30, "ground-industrial")
+    game.addBlock(150, 150, 30,30, "ground-industrial")
+    game.addBlock(200, 250, 30,30, "ground-industrial")
+    game.addBlock(200, 210, 30,30, "ground-industrial")
 }

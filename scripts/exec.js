@@ -1,5 +1,4 @@
 const execScripts = () => {
     playerScript();
     terrainScript();
-    
 }
