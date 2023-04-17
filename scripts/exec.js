@@ -1,0 +1,5 @@
+const execScripts = () => {
+    playerScript();
+    terrainScript();
+    
+}
